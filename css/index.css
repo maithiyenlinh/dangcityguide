@@ -1,0 +1,123 @@
+/* header */
+header {
+    margin-bottom: 56px;
+}
+header .slide {
+    max-height: 100vh;
+}
+.slide .carousel-inner {
+    max-height: inherit;
+}
+
+/* categories */
+.categories {
+    margin-bottom: 56px;
+}
+.special-feature figure {
+    border-radius: 10px;
+}
+.special-feature figcaption {
+    left: 0;
+    bottom: 0;
+    text-transform: uppercase;
+    color: var(--bs-white);
+    background: linear-gradient(90deg, rgba(0,0,0,0.5), rgba(0,0,0,0) 70.71%);
+}
+.special-feature:hover img {
+    transition: all 1s linear;
+    transform: scale(1.1);
+}
+
+/* toplist */
+.toplist {
+    padding-bottom: 56px;
+}
+.toplist:nth-child(even) {
+    border-top: 1px solid #ccc;
+}
+.toplist__heading h2 span {
+    color: var(--bs-pink);
+}
+h2 {
+    text-transform: uppercase;
+    padding-top: 56px;
+}
+.item {
+    position: relative;
+    display: block;
+}
+.item figcaption {
+    left: 0;
+    bottom: 0;
+    height: auto;
+    color: var(--bs-white);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.item figcaption * {
+    margin: 0;
+    padding: 0;
+}
+
+/* news */
+.news-wrapper {
+    padding-bottom: 56px;
+}
+.news-wrapper h2 {
+    color: var(--bs-pink);
+}
+.new {
+    top: 16px;
+    padding-left: 270px;
+    position: relative;
+    display: block;
+    margin-bottom: 16px;
+    min-height: 150px;
+}
+.new figure {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+}
+.new figcaption {
+    right: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    text-align: center;
+    color: var(--bs-white);
+    background-color: var(--bs-info);
+}
+.new:hover img {
+    transition: none;
+    transform: none;
+}
+.btn-new {
+    margin-top: 16px;
+}
+/* tablet */
+@media (max-width: 991px) {
+    .new {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .new figure {
+        width: 100%;
+        position: relative;
+    }
+}
+@media (max-width: 767px) {
+    main {
+        padding-top: 16px;
+    }
+    .categories {
+        margin-bottom: 16px;
+    }
+    .news-wrapper {
+        padding-bottom: 16px;
+    }
+}

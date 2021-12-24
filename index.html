@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Đắm chìm trong một thành phố với thiên nhiên tuyệt đẹp, lễ hội đầy màu sắc, và các dịch vụ có giá trị. Chào mừng bạn đến với du lịch thành phố Đà Nẵng.">
+    <title>Du lịch Đà Nẵng - Da Nang City Guide</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J92ES94VG0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-J92ES94VG0');
+    </script>
+</head>
+<body>
+    <!-- starts navigation -->
+    <nav class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand logo" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav justify-content-around w-100">
+                    <li a href="#"ss="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./about.html">về đà nẵng</a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">tours</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./destination.html">điểm du lịch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">khách sạn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./moment.html">khoảnh khắc</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        trợ giúp
+                        </a>
+                        <ul class="dropdown-menu text-capitalize" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">bản đồ</a></li>
+                        <li><a class="dropdown-item" href="#">hướng dẫn du lịch</a></li>
+                        <li><a class="dropdown-item" href="#">hỏi đáp</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ends navigation -->
+    <!-- starts header -->
+    <header>
+        <!-- starts slideshow -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./image/homepage/header-1.jpg" class="d-block w-100" alt="Cầy Rồng nhìn từ trên cao">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/homepage/header-2.jpg" class="d-block w-100" alt="Đà Nẵng về đêm từ trên cao">
+              </div>
+              <div class="carousel-item">
+                <img src="./image/homepage/header-3.jpg" class="d-block w-100" alt="Chùa Linh Ứng">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- ends slideshow -->
+        <div class="header__content">
+            <div class="content__inner text-center">
+                <h1 class="text-uppercase">đà nẵng city guide</h1>
+                <button type="button" class="btn btn-outline-danger btn-lg hidden active">book hotel</button>
+                <button type="button" class="btn btn-outline-danger hidden btn-lg">book tour</button>
+            </div>
+        </div>
+    </header>
+    <!-- ends header -->
+    <main>
+        <!-- starts categories-->
+        <div class="container categories">
+            <div class="row">
+              <div class="col-md-6 col-sm-12 mb-sm-16">
+                <a class="special-feature" href="./destination.html">
+                  <figure class="h-100">
+                    <img src="./image/homepage/cau-vang.jpg" alt="Cầu Vàng - Bà Nà Hills" class="h-100">
+                    <figcaption><h3>Điểm du lịch</h3></figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                    <a class="special-feature" href="#">
+                      <figure>
+                        <img src="./image/homepage/hotel.jpg" alt="Khách sạn tại Đà Nẵng">
+                        <figcaption><h3>Khách sạn</h3></figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <a class="special-feature" href="#">
+                      <figure>
+                        <img src="./image/homepage/food.jpg" alt="Ẩm thực tại Đà Nẵng">
+                        <figcaption><h3>Ẩm thực</h3></figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                  <div class="col-sm-12">
+                    <a class="special-feature" href="#">
+                      <figure class="mb-0">
+                        <img src="./image/homepage/beach.jpg" alt="Bãi biển tại Đà Nẵng">
+                        <figcaption><h3>Bãi biển</h3></figcaption>
+                      </figure>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- ends categories-->
+        <!-- starts top list -->
+        <div class="container-fluid" style="background-color: #f7f7f7">
+            <div class="toplist container text-center">
+                <div class="toplist__heading text-center">
+                    <h2>top <span>tour</span> tại Đà Nẵng</h2>
+                    <p>Tour được nhiều khách lựa chọn nhất</p>
+                </div>
+                <div class="toplist__body row">
+                    <div class="col-md-4 col-sm-12">
+                        <a href="./tour.html" class="item">
+                            <figure>
+                                <img src="./image/homepage/tour-1.jpg" alt="Tour Bà Nà Hills 1 ngày giá rẻ">
+                                <figcaption>
+                                    <p>Bà Nà</p>
+                                    <p>950.000vnđ</p>
+                                </figcaption>
+                            </figure>
+                            <div class="ribbon ribbon-top-left">
+                                <span>popular</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <a href="#" class="item">
+                            <figure>
+                                <img src="./image/homepage/tour-2.jpg" alt="Tour Hội An nửa ngày giá rẻ">
+                                <figcaption>
+                                    <p>Hội An</p>
+                                    <p><strong>800.000vnđ</strong></p>
+                                </figcaption>
+                            </figure>
+                            <div class="ribbon ribbon-top-left">
+                                <span>popular</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <a href="#" class="item">
+                            <figure>
+                                <img src="./image/homepage/tour-3.jpg" alt="Tour Mỹ Sơn một ngày giá rẻ">
+                                <figcaption>
+                                    <p>Mỹ Sơn</p>
+                                    <p><strong>250.000vnđ</strong></p>
+                                </figcaption>
+                            </figure>
+                            <div class="ribbon ribbon-top-left">
+                                <span>popular</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-success">Xem thêm Tours</button>
+            </div>
+            <div class="toplist container text-center">
+                <div class="toplist__heading text-center">
+                    <h2>top <span>khách sạn</span> tại Đà Nẵng</h2>
+                    <p>Khách sạn được nhiều khách lựa chọn nhất</p>
+                </div>
+                <div class="toplist__body row">
+                    <div class="col-md-4 col-sm-12">
+                        <a href="#" class="item">
+                            <figure>
+                                <img src="./image/homepage/hotel-1.jpg" alt="Khách sạn Brilliant Hotel - Khách sạn 4 sao Đà Nẵng">
+                                <figcaption>
+                                    <p>Brilliant Hotel</p>
+                                    <p>1.200.000vnđ</p>
+                                </figcaption>
+                            </figure>
+                            <div class="ribbon ribbon-top-left">
+                                <span>popular</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <a href="#" class="item">
+                            <figure>
+                                <img src="./image/homepage/hotel-2.jpg" alt="Khách sạn Dimond Sea Hotel - Khách sạn 4 sao Đà Nẵng">
+                                <figcaption>
+                                    <p>Diamond Sea Hotel</p>
+                                    <p><strong>800.000vnđ</strong></p>
+                                </figcaption>
+                            </figure>
+                            <div class="ribbon ribbon-top-left">
+                                <span>popular</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <a href="#" class="item">
+                            <figure>
+                                <img src="./image/homepage/hotel-3.jpg" alt="Fusion Maia Resort - Resort ven biển tại Đà Nẵng">
+                                <figcaption>
+                                    <p>Fusion Maia Resort</p>
+                                    <p><strong>2.500.000vnđ</strong></p>
+                                </figcaption>
+                            </figure>
+                            <div class="ribbon ribbon-top-left">
+                                <span>popular</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-success">Xem thêm Khách sạn</button>
+            </div>
+        </div>
+        <!-- ends top list -->
+        <!-- starts news -->
+        <div class="container news-wrapper">
+            <h2 class="text-center">tin tức</h2>
+            <div class="row">
+              <div class="col-md-6 col-sm-12">
+                <a href="#" class="new">
+                  <figure>
+                    <img src="./image/homepage/new-1.jpg" alt="Công Viên Suối Khoáng Nóng Núi Thần Tài">
+                    <figcaption>
+                      Th11
+                      <strong>26</strong>
+                    </figcaption>
+                  </figure>
+                  <h5>Công Viên Suối Khoáng Nóng Núi Thần Tài mở cửa từ 20.12.2021</h5>
+                  <p>
+                    <span class="d-block p-details">
+                      Sau một thời gian dài tạm dừng hoạt động vì ảnh hưởng của đại dịch Covid-19, 
+                      Khu Du lịch CVSKN Núi Thần Tài thông báo sẽ mở cửa đón khách trở lại vào ngày 20.12.2021. 
+                      Với sự nỗ lực của tất cả các cán bộ công nhân viên, vượt qua những khó…
+                    </span>
+                    <span class="m-link">đọc thêm...</span>
+                  </p>
+                </a>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <a href="#" class="new">
+                  <figure>
+                    <img src="./image/homepage/new-2.jpg" alt="InterContinental Danang Sun Peninsula Resort">
+                    <figcaption>
+                      Th11
+                      <strong>26</strong>
+                    </figcaption>
+                  </figure>
+                  <h5>InterContinental Danang Sun Peninsula Resort mở cửa đón khách trở lại</h5>
+                  <p>
+                    <span class="d-block p-details">
+                      Ngày 23-11, đại diện khu nghỉ dưỡng InterContinental Danang Sun Peninsula 
+                      Resort  cho biết, khu nghỉ dưỡng đã mở cửa đón khách trở lại với nhiều trải nghiệm mới, được 
+                      thiết kế riêng tư cùng dịch vụ chuẩn 5 sao như xem phim trong Rạp chiếu…
+                    </span>
+                    <span class="m-link">đọc thêm...</span>
+                  </p>
+                </a>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <a href="#" class="new">
+                  <figure>
+                    <img src="./image/homepage/new-3.jpg" alt="Đà Nẵng triển khai tuyên truyền, quảng bá ASEAN">
+                    <figcaption>
+                      Th11
+                      <strong>26</strong>
+                    </figcaption>
+                  </figure>
+                  <h5>Đà Nẵng triển khai tuyên truyền, quảng bá ASEAN giai đoạn 2021 – 2025</h5>
+                  <p>
+                    <span class="d-block p-details">
+                      Nhằm tạo điều kiện để người dân, giới trẻ, doanh nghiệp có cơ hội được trao đổi, 
+                      tìm hiểu về mục đích, giá trị, lợi ích mà Cộng đồng ASEAN đã và sẽ mang lại cho Việt Nam, 
+                      UBND thành phố Đà Nẵng ban hành Kế hoạch số 179/KH-UBND ngày…
+                    </span>
+                    <span class="m-link">đọc thêm...</span>
+                  </p>
+                </a>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <a href="#" class="new">
+                  <figure>
+                    <img src="./image/homepage/new-4.jpg" alt="VNA ra mắt sàn TMĐT VNAMALL">
+                    <figcaption>
+                      Th11
+                      <strong>26</strong>
+                    </figcaption>
+                  </figure>
+                  <h5>VNA ra mắt sàn TMĐT VNAMALL, siêu ưu đãi Black Friday</h5>
+                  <p>
+                    <span class="d-block p-details">
+                      VNA vừa ra mắt sàn thương mại điện tử (TMĐT) VNAMALL với hơn 300 sản phẩm cùng hàng 
+                      loạt ưu đãi hấp dẫn. Với ưu thế là sàn TMĐT của một hãng hàng không, VNAMALL sẽ mang đến những 
+                      sản phẩm độc đáo mang đậm dấu ấn hàng không, cũng như tận…
+                    </span>
+                    <span class="m-link">đọc thêm...</span>
+                  </p>
+                </a>
+              </div>
+            </div>
+            <button type="button" class="btn btn-success btn-new">Xem tất cả tin tức</button>
+        </div>
+        <!-- ends news -->
+    </main>
+
+    <footer class="container-fluid bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-12 text-white mb-20">
+              <div class="heading-info">
+                <span class="bg-dark">về chúng tôi</span>
+              </div>
+              <div style="padding: 0 20px 0 0;">
+                <p>Bản quyền thuộc về UBND TP. Đà Nẵng Sở Du lịch Đà Nẵng</p>
+                <p>Quản lý bởi Trung Tâm Xúc Tiến Du Lịch Đà Nẵng</p>
+                <p>Tel: (84.236) 3.898.196 - Fax: (84.236) 3.812.029</p>
+                <p>Contact us: media@danangfantasticity.com</p>
+                <p>Giấy phép: 696/GP-STTTT ngày 20/10/2015 của Sở Thông tin Truyền thông Đà Nẵng</p>
+                <p><strong class="text-white">Liên hệ quảng cáo</strong></p>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12 text-white mb-20">
+              <div class="heading-info">
+                <span class="bg-dark mt-sm-16">đăng ký nhận bản tin</span>
+              </div>
+              <form class="form-register">
+                <input type="text" placeholder="Họ và tên">
+                <input type="email" placeholder="Địa chỉ email">
+                <button class="btn btn-warning" type="Submit">Đăng ký ngay</button>
+              </form>
+            </div>
+            <div class=" col-md-4 col-sm-12 text-white mb-20">
+              <div class="heading-info ">
+                <span class="bg-dark mt-sm-16">cài đặt hiển thị</span>
+              </div>
+              <div class="setting">
+                <select class="form-select" aria-label="Default select example">
+                  <option value="Tiếng Việt">Tiếng Việt</option>
+                  <option value="English">English</option>
+                  <option value="日本語">日本語</option>
+                </select>
+                <select class="form-select" aria-label="Default select example">
+                  <option value="VNĐ">VNĐ</option>
+                  <option value="USD">USD</option>
+                  <option value="JPY">JPY</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "105763535280617");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+</body>
+</html>
